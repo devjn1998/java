@@ -10,6 +10,6 @@ public class Hello {
 
     @GetMapping("/")
     public String Ola() {
-        return "Ola mundo Spring "+new Date();
+        return "Ola mundo Spring " + new Date();
     }
 }
